@@ -1,0 +1,12 @@
+{
+  "name": "ML-Visualizer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "concurrently \"go run ./backend/main.go\" \"cd frontend && yarn dev\"",
+    "build": "vite build",
+    "serve": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  }
+}
